@@ -16,16 +16,16 @@ minimal_mistakes_skin    : "dark" # "default", "contrast"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Hairylog"
+title                    : "Hairylog: Why?⭐ How?🌊 What?💻"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Hyunsang(Harry) Cho"
+name                     : "Hyunsang(Harry) Cho 🖤"
 description              : "Harry's Devlog 💬"
 url                      : "https://hyunsang4072.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "hyunsang4072/comments" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/coffee.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
@@ -98,7 +98,7 @@ analytics:
 # Site Author
 author:
   name             : "Hyunsang(Harry) Cho"
-  avatar           : # "https://user-images.githubusercontent.com/42318591/108615416-2e1bb580-7447-11eb-8a54-6338e53ce625.png"
+  avatar           : "/assets/images/avatar.jpg"
   bio              : "Hi, I'm a student at UC Berkeley studying computer science.
   When I'm not studying, I like to go to the gym, watch youtube/neflix, and play video games."
   location         : "Berkeley, CA"
