@@ -12,18 +12,18 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "default"  "air", "aqua", "contrast", , "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" # "default"  "air", "aqua", "contrast", , "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "ko-KR"
-title                    : " 평생 공부 블로그 : Today I Learned‍ 🌙"
+locale                   : "en-US"
+title                    : "Hairylog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "식빵맘💛"
-description              : "공부 & 취미 블로그"
+name                     : "Hyunsang(Harry) Cho"
+description              : "Harry's Devlog 💬"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "ansohxxn/comments" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "hyunsang4072/comments" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -32,7 +32,7 @@ words_per_minute         : 200
 comments:
   provider               : "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : #"ansohxxn-github-io" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            :
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -51,9 +51,11 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : false # true, false (default)
-search_full_content      : false # true, false (default)
-search_provider          : #lunr # lunr (default), algolia, google
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
+search_provider          : lunr # lunr (default), algolia, google
+lunr:
+  search_within_pages    : true
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -64,15 +66,15 @@ google:
   instant_search         : # false (default), true
 # SEO Related
 google_site_verification :
-bing_site_verification   :
+bing_site_verification   : "80218EB0A8AEFC84C20F28858A1629B5"
 yandex_site_verification :
-naver_site_verification  :
+naver_site_verification  : "3744642ebe9e49ad1d95c37817d65ec1f412b7af"
 
 # Social Sharing
 twitter:
   username               :
 facebook:
-  username               :
+  username               : "hyunsang237"
   app_id                 :
   publisher              :
 og_image                 :  "/assets/images/my-cat.jpg" # Open Graph/Twitter default site image
@@ -81,13 +83,15 @@ og_image                 :  "/assets/images/my-cat.jpg" # Open Graph/Twitter def
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  links: 
+    - "https://www.facebook.com/hyunsang237/"
+    - "https://instagram.com/hyun_4027/"
 
 # Analytics
 analytics:
-  provider               : "google" # false (default), "google", "google-universal", "custom"
+  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : "UA-169251732-1"
+    tracking_id          : "UA-232131203-1"
     anonymize_ip         : false # true, false (default)
 
 
@@ -100,22 +104,22 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:bboddak@gmail.com"
+      url: "mailto:hyunsang237@berkeley.edu"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/ansohxxn"
-    #- label: "Instagram"
-    #  icon: "fab fa-fw fa-instagram"
-    #  url: "https://instagram.com/06.25ash"
+      url: "https://github.com/hyunsang4072"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/hyun_4027/"
     #- label: "Website"
     #  icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
     #- label: "Twitter"
     #  icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
-    #- label: "Facebook"
-    #  icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/hyunsang237/"
     
 
 # Site Footer
@@ -123,7 +127,10 @@ footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/ansohxxn"
+      url: "https://github.com/hyunsang4072"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/hyun_4027/"
     #- label: "Twitter"
     #  icon: "fab fa-fw fa-twitter-square"
       # url:
@@ -138,9 +145,7 @@ footer:
     #- label: "Bitbucket"
     #  icon: "fab fa-fw fa-bitbucket"
       # url:
-    #- label: "Instagram"
-    #  icon: "fab fa-fw fa-instagram"
-      # url:
+
 
 
 # Reading Files
