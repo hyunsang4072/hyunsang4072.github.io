@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "contrast" # "default"  "air", "aqua", "contrast", , "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "default", "contrast"
 
 # Site Settings
 locale                   : "en-US"
@@ -52,7 +52,7 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true # true, false (default)
-search_full_content      : true # true, false (default)
+search_full_content      : # true, false (default)
 search_provider          : lunr # lunr (default), algolia, google
 lunr:
   search_within_pages    : true
@@ -97,10 +97,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "공부하는 식빵맘 👱‍♀️"
-  avatar           : "https://user-images.githubusercontent.com/42318591/108615416-2e1bb580-7447-11eb-8a54-6338e53ce625.png"
-  bio              : "반갑습니다 :)"
-  #location         : "Seoul, South Korea"
+  name             : "Hyunsang(Harry) Cho"
+  avatar           : # "https://user-images.githubusercontent.com/42318591/108615416-2e1bb580-7447-11eb-8a54-6338e53ce625.png"
+  bio              : "Hi, I'm a student at UC Berkeley studying computer science.
+  When I'm not studying, I like to go to the gym, watch youtube/neflix, and play video games."
+  location         : "Berkeley, CA"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
