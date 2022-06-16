@@ -20,7 +20,7 @@ title                    : "Hairylog: Why?⭐ How?🌊 What?💻"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Hyunsang(Harry) Cho 🖤"
-description              : "Harry's Devlog 💬"
+description              : "Harry's Devlog 💬 Where dreams come true ✨🌌🌠"
 url                      : "https://hyunsang4072.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "hyunsang4072/comments" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -97,9 +97,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Hyunsang(Harry) Cho"
+  name             : "Hyunsang(Harry) Cho 🧸⚽🥩"
   avatar           : "/assets/images/avatar.jpg"
-  bio              : "Hi, I'm a student at UC Berkeley studying computer science.
+  bio              : "Hi, I'm a student @ UC Berkeley studying computer science.
   When I'm not studying, I like to go to the gym, watch youtube/neflix, and play video games."
   location         : "Berkeley, CA"
   links:
