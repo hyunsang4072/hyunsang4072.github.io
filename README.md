@@ -1,6 +1,6 @@
 # Harry + Devlog = Hairylog 💬  
 
----
+<br>
 
 Originally made to play with github basics and github page.  
 
