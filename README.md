@@ -1,3 +1,9 @@
-## My Devlog and other stuff 💬
+# Harry + Devlog = Hairylog 💬  
 
-<https://hyunsang4072.github.io>
+---
+
+Originally made to play with github basics and github page.  
+
+But soon became a compilation of knowledge, skills, and Harry's daily life(~~not really important~~) ʕ •ᴥ•ʔ  
+
+Anyways, let's get started ( 。・_・。)人(。・_・。 )
